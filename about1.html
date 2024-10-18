@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editkaro.in - About Us</title>
+    <link rel="stylesheet" href="C:\Users\V Pranay\OneDrive\Desktop\intership\2\styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>About Us</h1>
+        <p>Editkaro.in is dedicated to delivering high-quality video editing and social media marketing services.</p>
+    </header>
+
+    <section id="team">
+        <h2>Meet Our Team</h2>
+        <div class="container">
+            <div class="box">
+                <div class="imgBox">
+                    <img src="C:\Users\V Pranay\OneDrive\Desktop\intership\2\1.jpeg" alt="Team Member 1">
+                </div>
+                <div class="content">
+                    <h3>John Doe</h3>
+                    <p>Video Editor</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBox">
+                    <img src="C:\Users\V Pranay\OneDrive\Desktop\intership\2\2.jpeg" alt="Team Member 2">
+                </div>
+                <div class="content">
+                    <h3>Pranay</h3>
+                    <p>Social Media Manager</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBox">
+                    <img src="C:\Users\V Pranay\OneDrive\Desktop\intership\2\3.jpeg" alt="Team Member 3">
+                </div>
+                <div class="content">
+                    <h3>Mike Brown</h3>
+                    <p>Graphic Designer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Editkaro.in. All rights reserved.</p>
+    </footer>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1,
+        h2,
+        h3 {
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .box {
+            position: relative;
+            width: 15rem;
+            height: auto;
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .imgBox {
+            width: 100%;
+            height: 15rem;
+            overflow: hidden;
+        }
+
+        .imgBox img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .content {
+            text-align: center;
+            padding: 10px;
+            background-color: #fff;
+        }
+
+        .container .box:hover .imgBox {
+            transform: translate(-1.5rem, -1.5rem);
+        }
+
+        .container .box:hover .content {
+            transform: translate(1.5rem, 1.5rem);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .box {
+                width: 80%;
+                height: auto;
+            }
+        }
+    </style>
+</body>
+
+</html>
